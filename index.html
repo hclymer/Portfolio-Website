@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <section id="homesect">
+        <img
+          src="images/flowers2.png"
+          width="450"
+          height="450"
+          alt="anImage"
+          usemap="#examplemap"
+        />
+
+        <map name="examplemap">
+          <area
+            shape="rect"
+            coords="128,0,86,0"
+            href="#cloud"
+            alt="cloud"
+          />
+          <area shape="circle" coords="48,0,283,0" href="#about" alt="about" />
+          <area
+            shape="circle"
+            coords="148,0,282,0"
+            href="#projects"
+            alt="experience"
+          />
+          <area
+            shape="circle"
+            coords="243,0,284,0"
+            href="#references"
+            alt="projects"
+          />
+          <area
+            shape="circle"
+            coords="343,0,283,0"
+            href="#contact"
+            alt="reviews"
+          />
+          <area
+            shape="circle"
+            coords="440,0,283,0"
+            href="#contact"
+            alt="contact"
+          />
+          <area
+            shape="circle"
+            coords="385,0,105,0"
+            href="#contact"
+            alt="contact"
+          />
+        </map>
+      </section>
+
+      <div class="wave-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#c8e9a0"
+            fill-opacity="1"
+            d="M0,96L48,96C96,96,192,96,288,80C384,64,480,32,576,53.3C672,75,768,149,864,192C960,235,1056,245,1152,218.7C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div class="box">
+        <section id="about">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+            iure.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, neque?
+          </p>
+          
+          <div class="progress m-x-3" style="height: 20px;">
+            <div class="progress-bar " style="width:80%">Python 80%</div>
+          </div> 
+          <div class="progress" style="height: 20px;">
+            <div class="progress-bar" style="width:70%">HTML 70%</div>
+          </div> 
+          <div class="progress" style="height: 20px;">
+            <div class="progress-bar" style="width:60%">CSS 60%</div>
+          </div>
+          <div class="progress" style="height: 20px;">
+            <div class="progress-bar" style="width:50%">Bootstrap 50%
+            </div>
+          </div>
+          <div class="progress" style="height: 20px;">
+            <div class="progress-bar" style="width:40%">Javascript 40%
+            </div>
+          </div>  
+        </section>
+        <section>
+          <h2>Experience</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col col-sm-12">
+                <h3>Software Engineer Intern</h3>
+                <sub>Beigene</sub>
+                <sub>August 2022- June 2023</sub>
+                <ul class="work-experience-list list-unstyled">
+                  <li>
+                    Works with Python to develop and maintain machine learning
+                    software
+                  </li>
+                  <li>
+                    Created a Tesseract OCR based application using YOLOV5
+                    machine learning model for identifying document fields
+                  </li>
+                  <ul class="work-experience-list-sub list-unstyled">
+                    <li>Documented and tested software application</li>
+                    <li>
+                      Researched, investigated and fixed a range fo techical
+                      issues
+                    </li>
+                    <li>Debugged and tested code</li>
+                  </ul>
+                  <li>Lead a GIS Data Visualization Project</li>
+                  <ul class="work-experience-list-sub list-unstyled">
+                    <li>
+                      Used ArcGIS business Analyst to create color coded maps
+                      for visualization purposes
+                    </li>
+                    <li>
+                      Used Selenium as a web scraper to create custom dataset
+                    </li>
+                    <li>Assisted in the vendor contracting process</li>
+                  </ul>
+                  <li>
+                    Worked with PowerBi to create dashboards for stakeholders
+                  </li>
+                </ul>
+              </div>
+              <div class="col col-sm-12">
+                <h3>Data Entry Specialist</h3>
+                <sub>COMHAR</sub>
+                <sub>June 2022 - November 2022</sub>
+                <ul class="work-experience-list list-unstyled">
+                  <li>Optimized workflow using Power Automate</li>
+                  <li>Tracked and ensured completion of NOMs Assessment</li>
+                  <li>Entered NOMs data in SPARS.</li>
+                  <li>Ran weekly reports to ensure no loss of data.</li>
+                  <li>Tracked and assigned required training via Relias.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col col-sm-12">
+                  <h3>Development Intern</h3>
+                  <sub>Hopeworks Camden</sub>
+                  <sub>March 2022- June 2022</sub>
+                  <ul class="list-unstyled">
+                    <li>
+                      Used Salesforce CRM platform to update and correct donor
+                      information while also conducting research on potential
+                      donors, strategic partners, markets, and industries.
+                    </li>
+                    <li>
+                      Documented any issues with the Director of Development to
+                      collaborate on a solution.
+                    </li>
+                    <li>
+                      Quality checked data clean-up by pulling reports to ensure
+                      each project is accurate and complete.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col col-sm-12">
+                  <h3>Geospatial Lead Intern</h3>
+                  <sub>Hopeworks Camden</sub>
+                  <sub>July 2021- June 2022</sub>
+                  <ul class="list-unstyled">
+                    <li>
+                      Extracted and manipulated data from the US Census other GIS
+                      datasets, including downloading, formatting, cleaning over
+                      5000 records, and converting the data, then creating a
+                      Geodatabase to store the data.
+                    </li>
+                    <li>
+                      Designed presentations and generated custom reports to meet
+                      the client's unique needs.
+                    </li>
+                    <li>
+                      Created dynamic dashboards and visualizations to convey
+                      findings to clients.
+                    </li>
+                    <li>
+                      Used ArcGIS Analysis Toolboxes and Data Management Toolboxes
+                      to process and interpret data sets
+                    </li>
+                    <li>
+                      Created Macros for Data Cleaning; decreasing time spent
+                      cleaning.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="wave-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#c8e9a0"
+            fill-opacity="1"
+            d="M0,96L48,96C96,96,192,96,288,80C384,64,480,32,576,53.3C672,75,768,149,864,192C960,235,1056,245,1152,218.7C1248,192,1344,128,1392,96L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#c8e9a0"
+            fill-opacity="1"
+            d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,176C672,192,768,160,864,122.7C960,85,1056,43,1152,32C1248,21,1344,43,1392,53.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="box">
+        <section id="projects">
+          <h2>Projects</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, sit!
+          </p>
+          <div class="row">
+            <div class="col"><h3>Project 1</h3></div>
+            <div class="col"><h3>Project 2</h3></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Excepturi, vero.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae, tempore!
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c8e9a0" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,218.7C384,245,480,267,576,245.3C672,224,768,160,864,122.7C960,85,1056,75,1152,80C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c8e9a0" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,218.7C384,245,480,267,576,245.3C672,224,768,160,864,122.7C960,85,1056,75,1152,80C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <div class="box">
+        <section id="references">
+          <h2>References</h2>
+          <div class="row">
+            <div class="col"><h4>Dan Rohoton</h4></div>
+            <div class="col"><h4>Whit Wilson</h4></div>
+            <div class="col"><h4>Brandon Grayson</h4></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eveniet, quaerat harum rem animi vel atque blanditiis veritatis doloribus ad nostrum nam iste ipsam doloremque corporis consequatur earum nihil praesentium?</p>
+              <sub>CEO</sub>
+            </div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eos aliquam laboriosam ullam dolore repudiandae nemo aperiam deserunt! At unde fugit ad quasi, dignissimos dolores amet iusto nobis. Numquam, reprehenderit.</p>
+              <sub>Previous Boss</sub>
+            </div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima vero voluptates perferendis praesentium accusantium ipsam reiciendis, aliquam et culpa id nobis repudiandae fugit obcaecati alias ipsum molestias corporis provident nulla.</p>
+              <sub>Mentor</sub>
+            </div>
+          </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <div>
+            <form action="post">
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="fname">First Name:</label>
+                  <input type="text" class="form-control" name="fname" id="fname">
+                </div>
+                <div class="form-group col">
+                  <label for="lname">Last Name:</label>
+                  <input type="text" class="form-control" name="lname" id="lname">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+
+             
+
+              <button type="submit" class="btn">Submit!</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c8e9a0" fill-opacity="1" d="M0,64L48,101.3C96,139,192,213,288,208C384,203,480,117,576,106.7C672,96,768,160,864,160C960,160,1056,96,1152,96C1248,96,1344,160,1392,192L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

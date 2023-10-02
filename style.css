@@ -1,0 +1,90 @@
+
+
+/* Nav bar */
+.navbar {
+  /* margin-top: 900px; */
+}
+
+.navbar ul {
+  background-color: #78c0e0;
+  margin: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 15px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  /* display: inline; */
+  /* padding: 5px; */
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #c8e9a0;
+  border-radius: 15px;
+}
+
+/* wave */
+
+.wave-container {
+  position: relative;
+  background: white;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+svg {
+  display: block;
+}
+
+/* sections */
+
+section {
+  text-align: center;
+  background-color: #c8e9a0;
+}
+
+section h2 {
+  margin: 0;
+}
+.box {
+  background-color: #c8e9a0;
+  height: 200vh;
+  width: 100vw;
+}
+
+#homesect {
+  background-color: white;
+}
+
+.progress-bar  {
+  background-color: #78c0e0 !important;
+
+}
+.progress {
+  background: #c8e9a0 !important;
+}
+
