@@ -72,7 +72,7 @@ section h2 {
 }
 .box {
   background-color: #c8e9a0;
-  height: 200vh;
+  height: 150vh;
   width: 100vw;
 }
 
@@ -88,3 +88,13 @@ section h2 {
   background: #c8e9a0 !important;
 }
 
+.card {
+  background-color: #78c0e0 !important;
+}
+
+form {
+  margin-top:10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #c8e9a0;
+}
